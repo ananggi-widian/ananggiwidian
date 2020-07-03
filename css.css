@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+  background-color:	#00FFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://4.bp.blogspot.com/-zo2VYOoZMAM/V_UljGDYJAI/AAAAAAAABzg/mXAKgS9ZUOUgZMDSO5eCs7uCP9GH9bFlACLcB/s1600/3%2Banime%2Bkid%2Bcom.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #00BFFF;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.teks-container {
+	color:black;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.mid-wrapper{
+	height:300px;
+	background-color:#4B0082;
+}
+
+h4 {
+	padding-top:30px;
+	text-align:center;
+	font-family:"Times New Roman";
+}
+
+.genre a{
+	padding:70px;
+	margin:50px;
+	color:white
+}
+
+.genre h1 {
+	color:		#FAEBD7;
+	text-align:center;
+}
+.romance {
+	background-color:	#FF69B4;
+}
+
+.horror {
+	background-color:black;
+}
+
+.comedy {
+	background-color:	#008000;
+}
+
+.fantasi {
+	background-color: #DC143C;
+}
+
+
+.contact-form {
+  padding-top: 20x;
+  float:right;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 5px;
+  margin-bottom: 10;
+  padding: 10px;
+  font-size: 8px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+  cursor:pointer;
+}
+
+.section-title {
+	font-family:"Times New Roman";
+	text-align:center;
+}
+
+.bottom-wrapper {
+	height:60px;
+
+}
+.footer {
+margin-top:400px;
+  background-color: #2f5167;
+  color: #fff;
+  height: 50px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
